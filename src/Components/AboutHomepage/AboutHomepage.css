@@ -1,0 +1,57 @@
+.abouthomepage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding:5rem;
+    gap:2.5rem;
+    width:80%;
+}
+.abouthomepage__imageSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap:4rem;
+    
+}
+.abouthomepage__imageSection__figure{
+    
+}
+
+.abouthomepage__imageSection__image{
+    width:50rem;
+    height:auto;
+    border-radius: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	.abouthomepage{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        flex-wrap:wrap;
+
+        gap:5rem;
+        
+    }
+    .abouthomepage__imageSection{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        gap:4rem;
+        
+    }
+    .abouthomepage__imageSection__figure{
+        
+    }
+    
+    .abouthomepage__imageSection__image{
+        width:25rem;
+        height:auto;
+        border-radius: 1.5rem;
+    }
+}

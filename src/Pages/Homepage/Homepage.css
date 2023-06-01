@@ -1,0 +1,14 @@
+.Wrapper__AboutHomepage{
+    background-color:#9F8772;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1024px){
+    .Wrapper__AboutHomepage{
+        background-color:#9F8772;
+        display:flex;
+        justify-content: none;
+        align-items: center;
+    }
+}
