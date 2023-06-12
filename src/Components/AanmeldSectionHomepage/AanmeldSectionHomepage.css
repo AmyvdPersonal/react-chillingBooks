@@ -1,0 +1,56 @@
+.aanmeldsectionhomepage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+    flex-direction:column;
+    gap:4rem;
+
+}
+
+.aanmeldsectionhomepage__header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+.aanmeldsectionhomepage__header__title{
+    font-size: 4rem;
+}
+
+.aanmeldsectionhomepage__header__paragraph{
+    font-size:3rem;
+}
+
+.aanmeldsectionhomepage__form{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:2.5rem
+}
+
+.aanmeldsectionhomepage__form__input{
+    padding:1rem 10rem;
+    border:none;
+    font-size:150%;
+    text-align:left;
+    border-radius: 1.5rem;
+}
+
+.aanmeldsectionhomepage__form__SubmitButton{
+    height:5rem;
+    width:12rem;
+    font-size: 2rem;
+   border:none;
+   border-radius: 1.5rem;
+   background-color: #C8DBBE;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   transition:0.5s;
+}
+.aanmeldsectionhomepage__form__SubmitButton:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: scale(1.1);
+}
+
