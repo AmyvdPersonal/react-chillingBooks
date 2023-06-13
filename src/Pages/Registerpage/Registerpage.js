@@ -1,15 +1,23 @@
 /* import components */
+import Footer from "../../Components/Footer/Footer";
 import Navigation from "../../Components/Navigation/Navigation";
+import Registreerform from "../../Components/Registreerform/Registreerform";
 
 import "./Registerpage.css";
 
 const RegisterPage = () => {
     return(
-        <header>
+        <>
             <nav>
                 <Navigation/>
             </nav>
-        </header>
+            <main>
+                <section className="Wrapper__Registerform">
+                <Registreerform/>
+                </section>
+            </main>
+            <Footer/>
+        </>
     )
 }
 

@@ -14,7 +14,7 @@ const Navigation = () => {
     };
     return (
         <header className="header__navigation">
-            <h3>LOGO</h3>
+            <h3>ChillingBooks</h3>
             <nav ref={navRef} className="navigation">
                 <ul className="navigation__list">
                     <li className="navigation__ListItem"><Link to="/" className="navigation__ListItem__Link">Home</Link></li>

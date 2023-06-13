@@ -4,6 +4,9 @@ import Header from "../../Components/Header/Header";
 import AboutHomepage from "../../Components/AboutHomepage/AboutHomepage";
 import UitgelichteBooksSectionMainpage from "../../Components/uitgelichtBooksSectionMainpage/UitgelichteBooksSectionMainpage";
 import AanmeldSectionHomepage from "../../Components/AanmeldSectionHomepage/AanmeldSectionHomepage";
+import Footer from "../../Components/Footer/Footer";
+
+/*import data files in frontend base*/
 import headerData from "../../Data/HomepageHeaderData";
 
 import "./Homepage.css";
@@ -15,7 +18,7 @@ import sfeerImage7 from "../../img/sfeerImages/sfeerImage7.jpg";
 
 /*books preview*/
 import itendswithusImage from "../../img/bookImages/itendswithusbookcover.jpg";
-import Footer from "../../Components/Footer/Footer";
+
 
 const Homepage = () => {
     const headerDataimage = headerData.map(headerData => {
