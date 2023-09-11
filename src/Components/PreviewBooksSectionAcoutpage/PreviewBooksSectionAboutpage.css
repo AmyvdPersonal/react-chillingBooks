@@ -1,0 +1,34 @@
+.PreviewBooksSection{
+    padding:2.5rem;
+}
+.PreviewBooksSection__books{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+}
+
+.PreviewBooksSection__book__image{
+    min-height:40rem;
+    max-height:45rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+@media only screen and (max-width: 1024px){
+    .PreviewBooksSection{
+        padding:2.5rem;
+    }
+    .PreviewBooksSection__books{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:10rem;
+    }
+    
+    .PreviewBooksSection__book__image{
+        min-height:40rem;
+        max-height:45rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+}

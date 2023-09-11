@@ -1,0 +1,31 @@
+.leftnavigationbardashboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:15rem;
+}
+
+.leftnavigationbardashboard__profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    background-color:#9F8772;
+    width:100%;
+}
+.leftnavigationbardashboard__profile:hover{
+    background-color:#8a7563;
+}
+
+.leftnavigationbardashboard__profile__image{
+    width:6rem;
+    height:6rem;
+}
+
+.leftnavigationbardashboard__profile__linkText{
+    color:#ffff;
+    text-decoration:none;
+    font-size:3rem;
+
+}

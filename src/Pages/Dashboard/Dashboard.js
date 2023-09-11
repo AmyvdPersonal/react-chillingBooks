@@ -1,8 +1,21 @@
+/*import components*/
+import LeftNavigationbarDashboard from "../../Components/LeftNavigationbarDashboard/LeftNavigationbarDashboard";
+import RightPanelMainpageDashboard from "../../Components/RightPanelMainpageDashboard/RightPanelMainpageDashboard";
 
+import "./Dashboard.css";
 
 const Dashboard = () => {
     return(
-        <h1>ik ben het dashboard</h1>
+        <>
+        <section className="dashboard">
+            <section className="dashboard__Wrapper__LeftNavigationbarDashboard">
+                <LeftNavigationbarDashboard/>
+            </section>
+            <section className="dashboard__Wrapper__RightPanelDashboard">
+                <RightPanelMainpageDashboard/>
+            </section>
+        </section>
+        </>
     )
 }
 

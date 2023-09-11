@@ -1,0 +1,31 @@
+.qualitiesSectionWrapper{
+    background-color:#9F8772;
+
+    height:100%;
+    width:auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    gap:5rem;
+
+    padding:2.5rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .qualitiesSectionWrapper{
+        background-color:#9F8772;
+    
+        height:100%;
+        width:auto;
+    
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        flex-wrap:wrap;
+        gap:5rem;
+        padding:1rem;
+    }
+}

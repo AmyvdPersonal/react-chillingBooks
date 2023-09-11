@@ -1,0 +1,65 @@
+.AboutmeSection__Header__wrapper{
+    height:100%;
+    width:auto;
+    padding:2.5rem;
+}
+
+.AboutmeSection__Header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap:3rem;
+}
+
+.AboutmeSection__Header__image{
+    min-height:50rem;
+    max-height:60rem;
+    width:auto;
+    border-radius: 0.5rem;
+}
+
+.AboutmeSection__Header__textsection{
+    width:50%;
+}
+
+.AboutmeSection__Header__textsection__Title{
+    font-size:4rem;
+}
+
+.AboutmeSection__Header__textsection__Paragraph{
+    font-size:2.5rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .AboutmeSection__Header__wrapper{
+        height:100%;
+        width:auto;
+        padding:1rem;
+    }
+    .AboutmeSection__Header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        gap:3rem;
+    }
+    .AboutmeSection__Header__image{
+        min-height:30rem;
+        max-height:40rem;
+        width:auto;
+        border-radius: 0.5rem;
+    }
+    
+    .AboutmeSection__Header__textsection{
+        width:90%;
+    }
+    
+    .AboutmeSection__Header__textsection__Title{
+        font-size:3rem;
+    }
+    
+    .AboutmeSection__Header__textsection__Paragraph{
+        font-size:2rem;
+    }
+}
